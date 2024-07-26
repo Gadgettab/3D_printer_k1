@@ -39,3 +39,8 @@ trusted_clients =
 
 [history]
 
+[timelapse]
+output_path = /usr/data/timelapse/
+frame_path = /usr/data/tl_frames/
+snapshoturl = http://localhost:4408/webcam/?action=snapshot
+
